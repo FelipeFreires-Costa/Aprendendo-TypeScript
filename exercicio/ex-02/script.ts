@@ -28,3 +28,22 @@ function totalMudou(){
 if(input){
   input.addEventListener('keyup', totalMudou)
 }
+
+interface PagamentoPix {
+  valor: number;
+  data: string;
+}
+
+interface PagamentoBoleto {
+  valor: number;
+  data: string;
+}
+
+const minhaConta: PagamentoPix = {
+  valor: 150,
+  data: "2026-02-26"
+};
+
+const mensalidadeFaculdade: PagamentoBoleto = minhaConta;
+
+console.log(mensalidadeFaculdade)
