@@ -8,4 +8,4 @@ function toNumber(value: number | string){
   }
 }
 
-console.log(toNumber(true))
+console.log(toNumber('299'))

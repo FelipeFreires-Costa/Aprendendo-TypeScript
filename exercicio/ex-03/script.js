@@ -10,4 +10,4 @@ function toNumber(value) {
         throw "value deve ser um numero ou uma string";
     }
 }
-console.log(toNumber(true));
+console.log(toNumber('299'));
